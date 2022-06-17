@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+inline int yearToDays(int year){
+    return year*365;
+}
+
+int main() {
+    int year;
+    cout<<"Enter Year :- ";
+    cin>>year;
+    
+    cout<<"Total Days Are :- "<<yearToDays(year);
+    return 0;
+}
+
