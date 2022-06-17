@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+inline int areaOfTriangle(int Base,int Height){
+    return (Base*Height)/2;
+}
+int main() {
+    int Base,Height;
+    cout<<"Enter Base :- ";
+    cin>>Base;
+    
+    cout<<"Enter Height :- ";
+    cin>>Height;
+    
+    cout<<"Area Of Triangle Is :- "<<areaOfTriangle(Base,Height);
+    return 0;
+}
+
