@@ -1,0 +1,15 @@
+#include <iostream>
+
+using namespace std;
+
+inline int minToSec(int min){
+    return min*60;
+}
+
+int main() {
+    int min;
+    cout<<"Enter Minute In Integer:- ";
+    cin>>min;
+    cout<<minToSec(min);
+    return 0;
+}
