@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+inline int circuitPower(int voltage,int current){
+    return voltage*current;
+}
+
+int main() {
+    int volt,current;
+    cout << "Enter Voltage :- ";
+    cin>>volt;
+    cout<<"Enter Current :- ";
+    cin>>current;
+    cout<<circuitPower(volt,current);
+    return 0;
+}
